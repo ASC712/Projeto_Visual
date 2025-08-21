@@ -6,7 +6,7 @@ def validar_login():
     usuario = campo_usuario.get()
     senha = campo_senha.get()
 
-    if usuario == 'Abner' and senha == 'delpiero':
+    if usuario == 'Abner' and senha == '123456':
         resultado_login.configure(text='Login feito com sucesso!',text_color='green')
     else:
         resultado_login.configure(text='Login incorreto',text_color='red')
